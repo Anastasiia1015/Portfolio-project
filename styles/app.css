@@ -1,1 +1,32 @@
 /* font-family: 'Plus Jakarta Sans', sans-serif; */
+:root{
+    --default-font: 'Plus Jakarta Sans', sans-serif;
+}
+#logo{
+    width: 70px;
+}
+.nav-link{
+    font-family: var(--default-font);
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 28px;
+}
+
+.main-heading{
+        font-size: 75px;
+        line-height: 83px;
+        font-weight: 700;
+        background: linear-gradient( 102.4deg,  rgba(253,189,85,1) 7.8%, rgba(249,131,255,1) 100.3% );
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+}
+.hero{
+    margin: 15px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.hero *{
+    margin: 25px;
+    text-align: center;
+}
