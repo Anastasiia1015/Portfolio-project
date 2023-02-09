@@ -17,6 +17,11 @@
 body *{
     font-family: var(--default-font);
 }
+body{
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
 .main-heading{
         font-size: 75px;
         line-height: 83px;
@@ -78,7 +83,7 @@ body *{
 }
 @media (max-width: 576px) {
     .main-heading{
-        font-size: 45px;
+        font-size: 35px;
     }
     .description{
         font-size: 17px;
@@ -91,21 +96,22 @@ body *{
         margin: 20px;
     }
     .about-list{
-        margin: 0 10px;
+        margin: 0px;
     }
 }
 footer{
     background-color: black;
-    
+    margin-top: auto;
 }
 .footer-icon{
     color: white;
     margin: 0 20px;
     transition: 0.5s;
+    padding: 5px;
+    border-radius: 3px;
 }
 .footer-icon:hover{
-    background-color: white;
-    color: black;
+    background: linear-gradient( 102.4deg,  rgba(253,189,85,1) 7.8%, rgba(249,131,255,1) 100.3% );
     transition: 0.5s;
 }
 .about-me{
@@ -125,5 +131,21 @@ footer{
     color: var(--paragraph-color);
     font-weight: 400;
     font-size: 17px;
-    margin: 0 40px;
+    
+}
+.info .about-list{
+    list-style-type: none;
+}
+a{
+    text-decoration: none;
+}
+.contact-link{
+    color: black;
+    transition: 0.5s;
+}
+.contact-link:hover{
+    background: linear-gradient( 102.4deg,  rgba(253,189,85,1) 7.8%, rgba(249,131,255,1) 100.3% );
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    transition: 0.5s;
 }
