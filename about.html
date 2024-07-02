@@ -13,6 +13,16 @@
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"></script>
     <script src="https://kit.fontawesome.com/49ec53f2ec.js" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="styles/app.css">
+    <style>
+      .centered {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 100vh; /* Adjust the height as needed */
+        margin-top: 20px; /* Adjust top margin */
+        margin-bottom: 20px; /* Adjust bottom margin */
+      }
+    </style>
 </head>
 <body>
     <nav class="navbar navbar-expand-lg bg-body-tertiary">
@@ -33,30 +43,49 @@
       </nav>
       <h1 class="text-center m-4">Hi! I am Anastasiia.</h1>
       <p class="description " id="about-me" >
-        I am a first-year undergraduate student at the Computer Science bachelor studies at the University of Lodz. Last year, I became New Technologies for Women Scholar as one of the 50 most perspective young women in technologies. Currently, I am a participant of Perspektywy & Intel workshops and mentoring programs.  Also, I am a SheCodes Basics & SheCodes plus Alumni.
+        I am a second-year bachelor Computer Science student interested in web and software development. I have various 
+        experience of working on educational projects both as part of my university studies and self-initiatives. I am seeking 
+        an internship or entry-level position as a junior software developer. My background includes experience in web 
+        development, but I am eager to learn and work with new technologies. I am eager to find a role with the potential 
+        for growth as a full-stack or software developer.
       </p>
+      <div class="about-box cv-box">
+        <a href="/styles/images/CV_Dev_Anastasiia_Peliukhovska.pdf" download class="link-button rounded-3 text-nowrap w-15 cv " target="_blank">Download my CV</a>
+      </div>
       <div class="about-box">
         <h2 class="about-heading" >My Skills</h2>
         <div class="container">
           <div class="row">
             <div class="col-6">
-              <h3 class="sub-heading" >Hard Skills</h3>
-              <ul class="about-list mx-sm-5">
-                <li>React</li>
-                <li>JavaScript</li>
-                <li>HTML</li>
-                <li>CSS</li>
-                <li>Git</li>
-                <li>API</li>
-                <li>Bootstrap</li>
-              </ul>
+              <h3 class="sub-heading">Hard Skills</h3>
+              <div class="row about-list mx-sm-5">
+                <div class="col-12 col-md-6">
+                  <ul>
+                    <li>Python</li>
+                    <li>C++/C</li>
+                    <li>React</li>
+                    <li>SQL (Oracle DB, Maria DB)</li>
+                    <li>JavaScript</li>
+                    <li>Linux</li>
+                  </ul>
+                </div>
+                <div class="col-12 col-md-6">
+                  <ul>
+                    <li>Git</li>
+                    <li>HTML</li>
+                    <li>CSS</li>
+                    <li>API</li>
+                    <li>Bootstrap</li>
+                  </ul>
+                </div>
+              </div>
             </div>
             <div class="col-6">
               <h3 class="sub-heading">Languages</h3>
               <ul class="about-list mx-sm-5">
                 <li>English - C1</li>
+                <li>Polish - A2</li>
                 <li>Ukrainian - C2 (native speaker)</li>
-                <li>Polish - A1</li>
               </ul>
             </div>
           </div>
@@ -65,15 +94,24 @@
       <div class="about-box">
         <h2 class="about-heading">My education</h2>
         <div class="container mb-5">
-          <p >October 2022 - May 2025 (Planned)</p>
+          <p >October 2022 - June 2025 (Planned)</p>
           <h4 class="sub-heading pt-0">Computer Science bachelor, University of Lodz</h3>
           <ul class="about-list contact mx-sm-5" >
             <li>
-              GPA: 4.5
+              GPA: 4.8
             </li>
             <li>
-              Skills learned: C++/C, Linux, PHP, MySQL
+              Courses covered: Object Oriented Programming, Advanced algorithms,
             </li>
+          </ul>
+        </div>
+      </div>
+      <div class="about-box">
+        <h2 class="about-heading">Other Achievements</h2>
+        <div class="container mb-5">
+          <ul class="about-list mx-sm-5">
+            <li>PERSPEKTYWY&INTEL SCHOLAR, I became a scholar of Perspektywy and Intel program “New technologies for women” and have being participating in various workshops and mentoring program</li>
+            <li>SHECODES CODING COURSES, I finished a series of Coding courses aimed at front end development (SheCodes Responsive/Plus/Alumni)</li>
           </ul>
         </div>
       </div>
