@@ -61,6 +61,7 @@ body{
     font-weight: 400;
     font-size: 20px;
     padding: 80px;
+    padding-top: 20px;
 }
 .link-button{
     padding: 20px 30px;
@@ -162,4 +163,7 @@ a{
     display: flex;
     justify-content: center;
     
+}
+.project-title{
+    margin-top: 80px;
 }
